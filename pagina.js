@@ -5,12 +5,7 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Olá Mundo!!</Text>
-      <Text>Baixar o app expo hoje a noite</Text>
-      <Text>jsx=comandos jss=estilo</Text>
-      <Text>Eu sou lindo?</Text>
-      <input type="button" onclick="javascript: location.href='caminho/pagina.js';" value="Sim" />
-      <input type="button" onclick="javascript: location.href='caminho/pagina.js';" value="Com certeza" />
+      <Text>Valeu</Text>
       <StatusBar style="auto" />
     </View>
   );
