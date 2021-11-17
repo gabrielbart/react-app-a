@@ -7,10 +7,6 @@ export default function App() {
     <View style={styles.container}>
       <Text>Olá Mundo!!</Text>
       <Text>Baixar o app expo hoje a noite</Text>
-      <Text>jsx=comandos jss=estilo</Text>
-      <Text>Eu sou lindo?</Text>
-      <input type="button" onclick="javascript: location.href='pagina.js';" value="Sim" />
-      <input type="button" onclick="javascript: location.href='pagina.js';" value="Com certeza" />
       <StatusBar style="auto" />
     </View>
   );
