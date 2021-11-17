@@ -5,6 +5,7 @@ export default function Formulario () {
     return(
         <View>
             <Text>Novo Componente</Text>
+            <Text>olá mundo</Text>
         </View>
     )
 }
