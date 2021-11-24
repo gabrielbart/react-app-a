@@ -1,11 +1,19 @@
-import React from 'react'
-import { Text, View } from 'react-native';
+import React, {useState} from 'react'
+import { Text, View, TextInput, Button } from 'react-native';
 
 export default function Formulario () {
+    const[cep, onChangeCep] = useState('')
+    const[cidade, onChangeCidade] = useState('')
+    const handleConsultar = () => {
+        onChangeCidade(cep)
+        
+    }
     return(
         <View>
-            <Text>Novo Componente</Text>
-            <Text>olá mundo </Text>
+            <Text>Digite um CEP (somente números)</Text>
+            <TextInput value={cep} onChangeText={onChangeCep}/>
+            <Button title="consultar" onPress={handleConsultar}/>
+            <Text>{cidade}</Text>
         </View>
     )
 }
